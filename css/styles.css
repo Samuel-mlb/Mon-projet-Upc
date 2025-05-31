@@ -98,7 +98,7 @@ nav.nav li a {
     margin: 100px;
 }
 .best-music{
-    background-color: aqua;
+    background-color: white;
     min-height: 350px;
     display:flex;
     flex-wrap: wrap;
@@ -113,6 +113,7 @@ nav.nav li a {
     min-width: 350px;
     height: 350px;
     flex:1;
+    border-radius: 30%;
 }
 .music1{
     background-image:url(../Img/image1.jpg);
