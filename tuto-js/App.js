@@ -1,0 +1,1 @@
+alert("Bienvenue sur mélodie du coeur!")

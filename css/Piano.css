@@ -1,0 +1,106 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(5, 5, 78);
+    font-size: 30px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title{
+    font-size: 50px;
+    text-decoration:underline;
+    text-align: center;
+}
+.title2{
+    font-size: 50px;
+    text-decoration:underline;
+    text-align: center;
+    color: azure;
+    list-style-position: inside;
+}
+
+.plane{
+    text-align: center;
+    text-decoration: underline;
+}
+.plane2{
+    text-align: center;
+    text-decoration: underline;
+    color: azure;
+    list-style-position: inside;
+}
+.calvary{
+    font-weight: 200;
+}
+.calvary2{
+    font-weight: 200;
+    color:azure;
+    list-style-position: inside;
+}
+.keep{
+    list-style-position: inside;
+    color: aliceblue;
+}
+
+.Did{
+    text-decoration: none;
+}
+.rumors{
+    padding: 60px 90px;
+}
+.nga{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hotel{
+    position:relative;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.began{
+    position: absolute;
+    padding-left: 30px;
+}
+.today{
+    list-style:square
+}
+.mode{
+    list-style:upper-roman;
+}
+
+.tableau td {
+    border: 3px solid#333;
+}
+.tableau{
+    padding-left: 400px;
+}
+.keel{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    list-style: none;
+}
+.ati{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    list-style: none;
+}
+.down{
+    list-style:lower-alpha;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px;
+}
+footer a.mlb{
+    text-decoration: none;
+    color:rgb(46, 41, 41);
+
+} 
+.goya{
+    background: linear-gradient(blue,green), url("/Img/come-over2.jpg");
+    text-align: center;
+    color: aliceblue;
+}
