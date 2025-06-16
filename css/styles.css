@@ -20,7 +20,7 @@ header.header img{
 }
 
 section.top-page{
-    background: url("../Img/Call.png");
+    background: url("../Img/Yeshua.jpg");
     background-size: cover;
     height: 80vh;
     padding: 20px;
@@ -30,7 +30,7 @@ section.top-page{
     padding: 20px 50px;
 }
 .big-title {
-    color:rgb(4,4,85);
+    color:rgb(18, 18, 146);
     font-size: 80px;
     font-family: "Abril FatFace";
     text-align: center;
@@ -113,7 +113,7 @@ nav.nav li a {
     min-width: 350px;
     height: 350px;
     flex:1;
-    border-radius: 30%;
+    border-radius: 10%;
 }
 .music1{
     background-image:url(../Img/image1.jpg);
@@ -133,6 +133,7 @@ nav.nav li a {
     bottom: 0;
     background-color: rgb(221, 208, 185);
     padding: 5px 20px;
+    border-radius: 7%;
 }
 .instru-name{
     font-size:20px;
