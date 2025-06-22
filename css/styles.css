@@ -7,7 +7,7 @@ html{
 }
 
 body{
-    margin:0 auto;
+    margin:0;
 }
 
 /*tete de page*/
@@ -16,32 +16,33 @@ header.header {
     align-items: center;
 }
 header.header img{
-    width: 100px;
+    width: 100%;
+    max-width: 100px;
 }
 
 section.top-page{
-    background: url("../Img/Yeshua.jpg");
+    background: url("../Img/Melo\ \(3\).jpg");
     background-size: cover;
     height: 80vh;
     padding: 20px;
 }
 /*page de bienvenue*/
 .landing-page{
-    padding: 20px 50px;
+    padding: 5px 15px;
 }
 .big-title {
-    color:rgb(18, 18, 146);
-    font-size: 80px;
+    color:burlywood;
+    font-size: 100px;
     font-family: "Abril FatFace";
     text-align: center;
     font-weight: 100;
 
 }
 .scroll-down{
-    color: rgb(4, 4, 85);
+    color: burlywood;
     text-decoration: none;
     position: absolute;
-    bottom: 160px;
+    bottom: 200px;
 }
 
 /*menu de navigation*/
@@ -55,7 +56,177 @@ nav.nav{
     text-align: center;
 }
 nav.nav li a {
-    color:rgb(4, 4, 85);
+    color:burlywood;
+    text-decoration: none;
+}
+/*service*/
+.Services {
+    display:flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.Service-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.delivery-image {
+    font-size: 50px;
+}
+.service-details a{
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+/*Best sells*/
+.section-title{
+    font-size:50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+.section-title::before{
+    content: "";
+    position: absolute;
+    background-color: burlywood;
+    width: 50px;
+    height: 7px;
+    bottom:0
+}
+.bests-item{
+    margin: 100px;
+}
+.best-music{
+    background-color: white;
+    min-height: 350px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.music-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    
+}
+.no-grid{
+    min-width: 350px;
+    height: 350px;
+    flex:1;
+}
+.music1{
+    background-image:url(../Img/image1.jpg);
+}
+.music2{
+    background-image:url(../Img/Piano16.jpg);
+}
+.music3{
+    background-image:url(../Img/Kab.jpg);
+}
+.music4{
+    background-image: url(../Img/Gospel.jpg);
+}
+.instru-details{
+    position: absolute;
+    width: 91%;
+    bottom: 0;
+    background-color: rgb(221, 208, 185);
+    padding: 5px 20px;
+}
+.instru-name{
+    font-size:20px;
+    line-height: 1px;
+    font-weight:900;
+    text-decoration: none;
+    color: #000;
+}
+.instru-char{
+    color: white;
+    line-height: 1px;
+    font-size: 12px;
+    font-weight: 800;
+}
+/*Pieds de la page*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px;
+}
+footer a.mlb{
+    text-decoration: none;
+    color:rgb(46, 41, 41);
+
+}
+.fixe{
+    width: 100px;
+    height: 100px;
+}
+.good{
+    text-align: center;
+}
+@media (max-width: 768px) {
+    * {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+}
+
+/*tete de page*/
+header.header {
+    display: flex;
+    align-items: center;
+}
+header.header img{
+    width: 10%;
+    max-width: 100px;
+}
+
+section.top-page{
+    background: url("../Img/Melo\ \(3\).jpg");
+    background-size: cover;
+    height: 30vh;
+    padding: 10px;
+}
+/*page de bienvenue*/
+.landing-page{
+    padding: 20px 50px;
+}
+.big-title {
+    color:burlywood;
+    font-size: 80px;
+    font-family: "Abril FatFace";
+    text-align: center;
+    font-weight: 100;
+
+}
+.scroll-down{
+    color: burlywood;
+    text-decoration: none;
+    position: absolute;
+    top: 500px;
+}
+
+/*menu de navigation*/
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 1200px;
+    margin-left: 100px;
+    font-size: 25px;
+    text-align: center;
+}
+nav.nav li a {
+    color:burlywood;
     text-decoration: none;
 }
 /*service*/
@@ -89,7 +260,7 @@ nav.nav li a {
 .section-title::before{
     content: "";
     position: absolute;
-    background-color: aqua;
+    background-color: burlywood;
     width: 50px;
     height: 7px;
     bottom:0
@@ -107,19 +278,19 @@ nav.nav li a {
     position: relative;
     background-size: cover;
     background-position: center;
+    border-radius: 10%;
     
 }
 .no-grid{
     min-width: 350px;
     height: 350px;
     flex:1;
-    border-radius: 10%;
 }
 .music1{
     background-image:url(../Img/image1.jpg);
 }
 .music2{
-    background-image:url(../Img/Tent.jpg);
+    background-image:url(../Img/Piano16.jpg);
 }
 .music3{
     background-image:url(../Img/Kab.jpg);
@@ -129,11 +300,10 @@ nav.nav li a {
 }
 .instru-details{
     position: absolute;
-    width: 90%;
+    width: 91%;
     bottom: 0;
     background-color: rgb(221, 208, 185);
     padding: 5px 20px;
-    border-radius: 7%;
 }
 .instru-name{
     font-size:20px;
@@ -166,4 +336,5 @@ footer a.mlb{
 }
 .good{
     text-align: center;
+}
 }
